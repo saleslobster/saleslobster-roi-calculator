@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-100;
+}
+
+.stat-card {
+  @apply rounded-lg border border-gray-700 bg-gray-800/50 backdrop-blur p-6 hover:border-lobster/50 transition;
+}
+
+.cta-button {
+  @apply px-8 py-3 rounded-lg font-bold bg-lobster hover:bg-lobster-dark text-white transition transform hover:scale-105;
+}

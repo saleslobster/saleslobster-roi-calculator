@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        lobster: '#FF6B35',
+        'lobster-dark': '#D94520',
+      }
+    },
+  },
+  plugins: [],
+}

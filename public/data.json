@@ -1,0 +1,100 @@
+{
+  "agentforce": {
+    "name": "Salesforce Agentforce",
+    "pricing": {
+      "perConversation": 2.00,
+      "perMonth_100SDRs": 60000,
+      "perMonth_500SDRs": 300000,
+      "perMonth_1000SDRs": 600000,
+      "setupFee": 50000,
+      "dataCloudMinimum": 25000
+    },
+    "features": [
+      "Meeting notes processing",
+      "Meeting prep briefing",
+      "Apex code generation",
+      "Limited customization",
+      "Salesforce-only integration"
+    ],
+    "limitations": [
+      "Requires Data Cloud subscription",
+      "Expensive for large teams",
+      "Locked into Salesforce ecosystem",
+      "Limited external integrations",
+      "High implementation costs"
+    ],
+    "hiddenCosts": [
+      "Data Cloud licensing ($$$)",
+      "Einstein licenses ($$$)",
+      "Professional services ($50k-150k)",
+      "Admin time for config"
+    ]
+  },
+  "saleslobster": {
+    "name": "SalesLobster 🦞",
+    "pricing": {
+      "perConversation": 0.05,
+      "perMonth_100SDRs": 1500,
+      "perMonth_500SDRs": 7500,
+      "perMonth_1000SDRs": 15000,
+      "setupFee": 0,
+      "dataCloudRequired": false
+    },
+    "features": [
+      "Meeting notes processing",
+      "Meeting prep briefing",
+      "Apex code generation & deployment",
+      "Full customization via OpenClaw",
+      "Email, SMS, Slack, Discord integration",
+      "Custom webhooks",
+      "Self-hosted option"
+    ],
+    "advantages": [
+      "95%+ cost savings vs Agentforce",
+      "No data Cloud required",
+      "Open architecture (OpenClaw)",
+      "Multi-channel support",
+      "No licensing lock-in",
+      "Faster innovation cycle"
+    ]
+  },
+  "useCases": [
+    {
+      "name": "Meeting Notes Processing",
+      "agentforceTime": "20 mins manual",
+      "saleslobsterTime": "< 1 minute",
+      "agentforceCost": 2.00,
+      "saleslobsterCost": 0.05,
+      "timeValue": "19 mins saved",
+      "frequency": "10x/day per SDR"
+    },
+    {
+      "name": "Meeting Prep Briefing",
+      "agentforceTime": "30 mins research",
+      "saleslobsterTime": "< 2 minutes",
+      "agentforceCost": 2.00,
+      "saleslobsterCost": 0.03,
+      "timeValue": "28 mins saved",
+      "frequency": "5x/day per SDR"
+    },
+    {
+      "name": "Apex Deployment",
+      "agentforceTime": "2-4 hours",
+      "saleslobsterTime": "15-30 mins",
+      "agentforceCost": 10.00,
+      "saleslobsterCost": 0.50,
+      "timeValue": "1.5-3.5 hours saved",
+      "frequency": "2-3x/week for dev team"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "We spent $200k/year on Agentforce just for our 50-person SDR team. SalesLobster does the same thing for under $10k.",
+      "author": "VP Sales, Fortune 500 Tech"
+    },
+    {
+      "text": "The hidden costs of Agentforce (Data Cloud, setup, training) made it impossible to justify. SalesLobster just works.",
+      "author": "Salesforce Admin, Mid-Market SaaS"
+    }
+  ]
+}
